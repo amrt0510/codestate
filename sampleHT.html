@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="newjs.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            jQuery(function($) {
+
+                $(document).ready(function() {
+                    $.post('eg1.php', {x: $('body').html()}, function(ajax_re) {
+
+                    });
+                
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <script></script>
+        <div style="background-color: burlywood; width:100px; height: 100px; font-size: 20px; font-weight: bold;">this is a sample test</div>
+        <table style="padding: 5px;
+               border: solid blue 2px;
+               width: 50%;
+               height: 50%;
+               ">
+            <thead>
+                <tr style=" background-color: brown;">
+                    <th>
+                        sr. no
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style=" background-color: gray;">
+                        1
+                    </td>
+                    <td style=" background-color: gray;">
+                        Name
+                    </td>
+                </tr>
+                <tr>
+                    <td style=" background-color: gray;">
+                        2
+                    </td>
+                    <td style=" background-color: gray;">
+                        Name
+                    </td>
+                </tr>
+                <tr>
+                    <td style=" background-color: gray;">
+                        3
+                    </td>
+                    <td style=" background-color: gray;">
+                        Name
+                    </td>
+                </tr>  <tr>
+                    <td style=" background-color: gray;">
+                        4
+                    </td>
+                    <td style=" background-color: gray;">
+                        Name
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
