@@ -68,6 +68,7 @@ if (@file_exists(dirname(__FILE__) . '/lang/eng.php')) {
 // ---------------------------------------------------------
 // set default font subsetting mode
 $pdf->setFontSubsetting(true);
+echo 'i have added this line'.
 
 // Set font
 // dejavusans is a UTF-8 Unicode font, if you only need to
